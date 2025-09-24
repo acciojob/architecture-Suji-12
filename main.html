@@ -1,16 +1,112 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Architecture Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1100px;
+            background: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            padding: 10px;
+        }
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        td {
+            border: 1px solid #999;
+            vertical-align: top;
+            padding: 10px;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+        }
+        .leftCol, .rightCol {
+            width: 200px;
+        }
+        .middleCol {
+            width: 600px;
+            text-align: justify;
+        }
+        h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<div class="container">
+    <div class="imageContainer">
+        <img src="https://www.arch2o.com/wp-content/uploads/2017/08/Arch2O-Architecture-drawings-28.jpg" alt="Architecture Design">
+    </div>
+    <table>
+        <tr>
+            <td class="leftCol">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/12/54/abstract-1867937_1280.jpg" alt="Building Design">
+            </td>
+            <td class="middleCol">
+                <h3>Unit #5 - Floor Plans</h3>
+                <p>
+                    A. Kitchen <br>
+                    B. Bathroom <br>
+                    C. Using "Slabs" <br>
+                    D. Georgian Home <br>
+                    E. Sketching Assignment #5
+                </p>
+            </td>
+            <td class="rightCol">
+                <img src="https://cdn.pixabay.com/photo/2017/08/07/12/49/spiral-2601616_1280.jpg" alt="Spiral Design">
+            </td>
+        </tr>
+        <tr>
+            <td class="leftCol">
+                <img src="https://cdn.pixabay.com/photo/2016/11/21/14/04/spiral-1845090_1280.jpg" alt="Abstract Architecture">
+            </td>
+            <td class="middleCol">
+                <h3>Objective</h3>
+                <p>
+                    Discuss factors that are important in the design of bedrooms. Plan the size and location of closets 
+                    for a typical residence. Implement design considerations for bathrooms. Plan service areas 
+                    by applying good design principles. Design kitchens to meet family needs with appropriate appliances. 
+                    Integrate furniture layouts into living rooms and analyze dining rooms using good design practices. 
+                    Apply principles for garages, entries, and foyers for complete functionality.
+                </p>
+            </td>
+            <td class="rightCol">
+                <h3 class="highlight">Green Floor</h3>
+                <p>
+                    FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers 
+                    with free solutions to their green architectural needs.  
+                    <a href="#">learn more</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
 </body>
-
 </html>
